@@ -1,0 +1,19 @@
+#include <iostream>
+#include <cmath> / "Math.m
+
+using namespace std;
+
+int main()
+{
+ float a,b,c,A,s;
+ cout<<"ingresar primer lado: ";
+ cin>>a;
+ cout<<"ingresar segundo lado: ";
+cin>>b;
+cout<<"ingresar tercer lado: ";
+cin>>c;
+s=(a+b+c)/2;
+A = sqrt (s*(s-a)*(s-b)*(s-c));
+cout<<"Escribir el area es: "<<A;
+    return 0;
+}
