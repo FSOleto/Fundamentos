@@ -1,0 +1,20 @@
+#include <stdio.h>
+using namespace std;
+#include <iostream>
+int main()
+{
+float sueldoa,sueldob,sueldoc,sueldoF;
+cout<<"ingrese sueldo basico: "<< endl;
+
+cin>>sueldoa;
+cout<<"ingrese bono de transporte: "<< endl;
+
+cin>>sueldob;
+cout<<"ingrese bono de antiguedad: "<< endl;
+
+cin>>sueldoc;
+sueldoF=sueldoa+sueldob+sueldoc;
+
+cout<<"sueldo final es: "<<sueldoF <<endl;
+    return 0;
+}
