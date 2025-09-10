@@ -1,0 +1,18 @@
+#include <stdio.h>
+using namespace std;
+#include <iostream>
+int main()
+{
+int nota;
+cout<<"ingrese nota final: ";
+cin>>nota;
+
+if (nota>=51){
+cout<<"El estudiante aprueba."<<endl;
+}  else {
+cout<<"El estudiante reprueba."<<endl;
+}
+
+
+    return 0;
+}
