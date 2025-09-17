@@ -1,0 +1,36 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+  int A,B,C;
+  cout<<"ingrese primer Numero:";
+  cin>>A;
+   cout<<"ingrese segundo Numero:";
+  cin>>B;
+   cout<<"ingrese tercer Numero:";
+  cin>>C;
+   
+    int promedio=(A+B+C)/3.0;
+  cout<<"el promedio de los tres numeros es:"<<promedio<<endl;
+  
+ if (promedio>10)
+ cout<<"esta fuera del rango"<<endl;
+ 
+    else
+      if(!(A>=0) || (A<=10)) {
+        cout<<"el primer dato ("<<A<<")no esta en el rango de 0 a 10"<<endl;
+     }
+  else 
+    if(!(B>=0) || (B<=10)){
+      cout<<"el segundo dato ("<<B<<")no esta en el rango de 0 a 10"<<endl;
+  }
+  else
+    if(!(C>=0) || (C<=10)){
+      cout<<"el tercer dato ("<<C<<")no esta en el rango de 0 a 10"<<endl;
+  }
+  
+ 
+
+    return 0;
+}
