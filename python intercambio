@@ -1,0 +1,13 @@
+
+
+A=int(input("ingrese valor (A): "))
+B=int(input("ingrese valor (B): "))
+
+print("a =",A)
+print("b =",B)
+print("sin intercambio")
+
+A,B=B,A
+
+print("con intercambio A= ",A,"B= ",B)
+
